@@ -1,0 +1,17 @@
+Before running the code I believe that we have assined numbers to numbers[0], numbers[1], numbers[2], and numbers[5]. The remaining two have not been assigned anything and I have no idea what value the coputer woll assign them. I think the logic is as follows:
+
+1. Initialize the 6 vector and the pointer p.
+2. Make p reference the location of numbers[0]
+3. Make the value of numbers[0] =1 using p refernce
+4. Add one to location refernce number that p is storing
+5. Now that p is referencing numbers[1], use that to make numbers[1] =4
+6. p is made to refernce the location of numbers[2]
+7. p is used to turn numbers[2] to store the same value as numbers[0]=1
+8. p is made to reference the location of the location number of numbers[0] + value of the current location refernce of numbers[2] which is one. So then p is referncing the location for numbers[1].
+9. p is used to make numbers [1] = 4 which it already is
+10. p is made to refernce the location of numbers[0] + 1, which is numbers[1]
+11. Change the value of current location number + 4 which is numbers[5] and changes that value to 5.
+
+Note that the locations of numbers[3] and numbers[4] were never referenced or assigned. 
+
+My reasoning seems correct and the nonassigned numbers in the array seem to be almost random but they are probably not. Although I have no clue where they derive from. 
